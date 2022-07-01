@@ -1,9 +1,9 @@
 .items {
     display: flex;
+    justify-content: space-between;
 }
 
 .contacts {
-margin-right: 10px;
 font-weight: bold;
 }
 
@@ -12,6 +12,7 @@ width: max-content;
 height: max-content;
 margin:  16px 0 16px 0;
     border-radius: 5px;
+    border: solid  1px rgb(197, 193, 193);
     color: #000;
     background-color: rgb(245, 248, 40);
 }
